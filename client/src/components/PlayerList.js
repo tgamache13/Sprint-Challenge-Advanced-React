@@ -21,7 +21,7 @@ class PlayerList extends React.Component {
                 this.setState({
                     players: result.data
                 })
-                console.log(result)
+            
             })
             .catch(error => {
                 console.log('error', error)
